@@ -3,7 +3,6 @@ package org.Super.day04;
 import java.util.Scanner;
 
 public class practice10 {
-
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("주민등록번호(-포함) : ");
@@ -20,5 +19,4 @@ public class practice10 {
 		
 		sc.close();
 	}
-
 }

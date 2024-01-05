@@ -15,7 +15,6 @@ public class practice11 {
 				if(rotto[i] == rotto[j]) i--;
 			}
 		}
-		
 		for(int i = 0; i < rotto.length;i++) {
 			for(int j = 0; j < i;j++) {
 				if(rotto[i] < rotto[j]) {
@@ -28,7 +27,5 @@ public class practice11 {
 		for(int i = 0; i < rotto.length;i++) {
 			System.out.print(rotto[i] + " ");
 		}
-
 	}
-
 }
